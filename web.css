@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    background: url(imgs/11.jpg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.navbar{
+    height: 80px;
+    width: 100%;
+    background: rgba(0, 0, 0, .4);
+}
+.logo{
+    width: 140px;
+    height: auto;
+    margin: 10px 100px;
+}
+.navbar ul{
+    float:right;
+    margin-right: 20px;
+}
+.navbar ul li{
+    list-style: none;
+    margin: 0 8px;
+    line-height: 80px; 
+    display: inline-block;
+
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 6px 13px;
+    transition: .4s;
+}
+nav ul li a.active,
+nav ul li a:hover{
+    color: red;
+    border-radius: 2px;
+}
+.wrapper .center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.center h1{
+    font-size: 70px;
+    font-weight: bold;
+    text-align: center;
+    width: 900px;
+    
+}
+.center h2{
+    font-size: 70px;
+    font-weight: bold;
+    text-align: center;
+    width: 880px;
+    
+}
+.center .buttons{
+    margin:35px 250px;
+}
+.buttons button{
+    height: 50px;
+    widows: 150px;
+    font-size: 18px;
+    font-weight: bold;
+    color: rosybrown;
+    background: red;
+    border: 1px solid gray;
+    outline: none;
+    cursor: pointer;
+    border-radius: 25px;
+    transition: .5s;
+}
+.buttons .btn{
+    margin-left: 25px;
+}
+.buttons button:hover{
+    color: gray;
+}
